@@ -22,7 +22,9 @@ class ViewController: UIViewController {
     }
     
     func load() {}
-    
+
     func setup() {}
+
+    func new() {}
 }
 
