@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let a = 5
+    let b = 7
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +20,7 @@ class ViewController: UIViewController {
     func add() -> Int {
         a + b
     }
-
+    
+    func load() {}
 }
 
