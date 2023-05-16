@@ -14,6 +14,7 @@
 		353561822A137E91000BF546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353561812A137E91000BF546 /* Assets.xcassets */; };
 		353561852A137E91000BF546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353561832A137E91000BF546 /* LaunchScreen.storyboard */; };
 		3535618D2A1388D7000BF546 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3535618C2A1388D7000BF546 /* NetworkService.swift */; };
+		353561912A138CAE000BF546 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353561902A138CAE000BF546 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		353561842A137E91000BF546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353561862A137E91000BF546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3535618C2A1388D7000BF546 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		353561902A138CAE000BF546 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				353561832A137E91000BF546 /* LaunchScreen.storyboard */,
 				353561862A137E91000BF546 /* Info.plist */,
 				3535618C2A1388D7000BF546 /* NetworkService.swift */,
+				353561902A138CAE000BF546 /* Helper.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				3535617D2A137E8A000BF546 /* ViewController.swift in Sources */,
 				353561792A137E8A000BF546 /* AppDelegate.swift in Sources */,
+				353561912A138CAE000BF546 /* Helper.swift in Sources */,
 				3535618D2A1388D7000BF546 /* NetworkService.swift in Sources */,
 				3535617B2A137E8A000BF546 /* SceneDelegate.swift in Sources */,
 			);
